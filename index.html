@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+
+h1 {background-color:blue;}
+textarea:hover{width:400px;
+height:200px;}
+
+
+input[type=text]:focus{
+width=10;
+height=20;
+width: 20%;
+height:20px;
+padding: 12px 20px;
+margin: 8px 0;
+ box-sizing: border-box;
+ border: 2px solid red;
+  border-radius: 4px;
+background-color:blue;
+  color: white;
+transition: width 0.4s ease-in-out;
+text-shadow}
+
+input[type=phone]:focus{
+width:300px;
+height:20px;`
+padding: 12px 20px;
+margin: 8px 0;
+min=10;
+max=10
+ box-sizing: border-box;
+ border: 2px solid red;
+  border-radius: 4px;
+background-color: #3CBC8D;
+  color: white;
+transition: width 0.4s ease-in-out;
+}
+input[type=E-mail]:focus{
+width:300px;
+height:20px;
+padding: 12px 20px;
+margin: 8px 0;
+ box-sizing: border-box;
+ border: 2px solid red;
+  border-radius: 4px;
+background-color: #3CBC8D;
+  color: white;
+transition: width 0.4s ease-in-out;
+text-shadow}
+input[type=E-mail]~placeholder{
+top:-20px;
+    left:10px;
+    font-size:14px;
+    color:#19f;}
+
+
+
+
+
+select {background-color: #f1f1f1;}
+ input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;}
+
+
+</style>
+</head>
+<title>Registration form</title>
+<body>
+
+<h1><marquee>Please Provide the following</h1>
+	
+	
+	
+	</marquee>
+	
+<form action="project.html" method="post">
+
+
+First name:<input type="text"  name="fname" required></p>
+<p>Last name:<input type="text"  name="lname" required></p>
+<p>Nationality:<input type="region"  name="country" size="25" required></p>
+<P>Date:<input type="date" name="date" valid</p>
+<p>Phone:<input type="phone"  name="tel" min="10" max="12" required></p>
+<P>E-mail:<input type="E-mail"  name="e-mail" placeholder="Please enter your E-mail" required</p>
+<p><input type="radio" name="gender" value="Male">Male</p>
+<p><input type="radio" name="gender" value="Female">Females</p>
+<P>ID No:<input type="number"  name="id"</p>
+<p>Extra Courses:</p>
+<p><input type="checkbox"  name="subjects" selected>computer science <P/>
+<input type="checkbox"  name="subjects">Physics</p>
+<input type="checkbox"  name="subjects">Economics</p>
+<p>Combinations:</p>
+<select name="dropdown" >
+ <p><option value="PCB" selected>Physics Chemistry and Biology(PCB)</option></P>
+ <p><option value="computer science" >Mathematics Economics and computer science(MCE)</option></P>
+<p><option value="computer science" >Mathematics Physics and computer science(MPC)</option></P>
+<p><option value="English" >History Economics Literature(HEL)</option></P>
+</select>
+<p>Comments:</p>
+<textarea name="comments"></textarea>
+<p><input type="submit"  name="button" value="send">
+</form>
+</body>
+</html>
